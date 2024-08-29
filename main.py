@@ -1,4 +1,6 @@
 from package.cli import main_cli
+import typer
 
 if __name__ == "__main__":
-    main_cli()
+  typer.run(main_cli)
+
