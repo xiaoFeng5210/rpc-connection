@@ -16,13 +16,13 @@ def create_file_path():
 
 
 
-def read_ini_to_json(file_path: str):
+def modify_frp_ini(file_path: str):
     config = configparser.ConfigParser()
     try:
         with open(file_path, 'r') as ini_file:
             config.read_file(ini_file)
 
-            
+
     except FileNotFoundError:
         print(f"错误：文件 '{file_path}' 不存在。")
     except configparser.Error as e:
