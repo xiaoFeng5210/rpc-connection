@@ -17,7 +17,7 @@ def main_cli(device_name: str):
         print(frpc_path)
 
     else:
-        typer.echo(f"目前无法找到 {device_name}, ")  
+        typer.echo(f"目前无法找到 {device_name}, ")
 
 if __name__ == "__main__":
     typer.run(main_cli)
