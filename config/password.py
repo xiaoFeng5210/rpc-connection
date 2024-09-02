@@ -16,5 +16,11 @@ device_match_password = {
     'dealer': '西班牙咖啡',
     'desc': '西班牙咖啡',
     'password': 'w7bEiH'
-  }
+  },
+
+  'xZTDrv': {
+    'dealer': '惠人',
+    'desc': '惠人',
+    'password': 'PjrxbJ'
+  },
 }

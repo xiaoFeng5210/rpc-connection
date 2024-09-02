@@ -27,7 +27,7 @@ def modify_frp_ini(file_path: str, new_server_name: str):
 
             with open(file_path, 'w') as ini_file:
                 config.write(ini_file)
-                print(f"成功修改 '{file_path}'")
+                print(f"成功修改 '{file_path}'文件")
 
     except FileNotFoundError:
         print(f"错误：文件 '{file_path}' 不存在。")
