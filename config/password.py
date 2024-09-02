@@ -4,5 +4,11 @@ device_match_password = {
     'dealer': '文心桥',
     'desc': '当前测试',
     'password': 'xymWCm'
+  },
+
+  'gUwnQi': {
+    'dealer': '西班牙冰淇淋',
+    'desc': '西班牙冰淇淋',
+    'password': 'S9fPxP'
   }
 }
