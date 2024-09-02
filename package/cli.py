@@ -22,7 +22,7 @@ def main_cli(device_name: str):
             current_password = password
             create_frp_ini(device_name)
             pyperclip.copy(password)
-            typer.echo(f"密码已复制到剪贴板!")
+            typer.echo(f"设备密码已复制到剪贴板!")
             run_frp_ini()
         else:
             typer.echo(f"设备密码错误！请检查密码是否正确")

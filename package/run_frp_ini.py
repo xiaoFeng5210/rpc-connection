@@ -12,6 +12,8 @@ def run_frp_ini():
         # 切换到 frp 目录
         os.chdir(frp_dir)
 
+        print("frp已经跑起来了，现在可以尝试远程连接")
+
         # 执行命令
         command = ['sudo', './frpc', '-c', 'frpc.ini']
         result = subprocess.run(command, check=True, capture_output=True, text=True)
