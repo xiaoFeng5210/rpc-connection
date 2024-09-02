@@ -21,10 +21,9 @@ def main_cli(device_name: str):
             current_device = device_name
             current_password = password
             create_frp_ini(device_name)
+            pyperclip.copy(password)
+            typer.echo(f"密码已复制到剪贴板!")
             run_frp_ini()
-            # 非常棒，现在完美执行了，现在后端能力是否可以做到把密码复制黏贴到剪贴板？
-            # 可以，使用pyperclip库
-
         else:
             typer.echo(f"设备密码错误！请检查密码是否正确")
     else:
