@@ -1,6 +1,9 @@
 import typer
 from config.password import device_match_password
 
+current_device = ''
+current_password = ''
+
 def main_cli(device_name: str):
     if device_name in device_match_password:
         # typer.echo(f"Hello {device_name}, {device_match_password[device_name].get('password')}")
@@ -8,6 +11,9 @@ def main_cli(device_name: str):
         password = find_obj.get("password")
         desc = find_obj.get("desc")
         typer.echo(f"设备名称: {device_name}, 密码: {password}, 描述: {desc}")
+        global current_device, current_password
+        current_device = device_name
+        current_password = password
         
         
 

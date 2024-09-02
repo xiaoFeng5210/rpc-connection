@@ -10,7 +10,5 @@ def testRun():
 
 
 if __name__ == "__main__":
-  # typer.run(main_cli)
-  thread = threading.Thread(target=testRun, args=())
-  thread.start()
+  typer.run(main_cli)
 

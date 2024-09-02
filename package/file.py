@@ -16,12 +16,16 @@ def create_file_path():
 
 
 
-def modify_frp_ini(file_path: str):
+def modify_frp_ini(file_path: str, new_server_name: str):
     config = configparser.ConfigParser()
     try:
         with open(file_path, 'r') as ini_file:
             config.read_file(ini_file)
-
+            if 'secret_ssh_visitor' in config:
+                print(config['secret_ssh_visitor']['server_name'])
+                config['secret_ssh_visitor']['server_name'] = new_server_name
+            else:
+                print("警告: 'secret_ssh_visitor' 部分不存在")
 
     except FileNotFoundError:
         print(f"错误：文件 '{file_path}' 不存在。")
@@ -30,4 +34,8 @@ def modify_frp_ini(file_path: str):
     except json.JSONDecodeError as e:
         print(f"转换 JSON 时出错：{e}")
     except Exception as e:
-        print(f"发生未知错误：{e}")    
+        print(f"发生未知错误：{e}")
+
+if __name__ == "__main__":
+    file_path = create_file_path()
+    modify_frp_ini(file_path, 'nothing') 
