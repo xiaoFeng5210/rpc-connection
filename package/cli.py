@@ -25,7 +25,7 @@ def main_cli(device_name: str):
             typer.echo(f"设备密码已复制到剪贴板!")
             run_frp_ini()
         else:
-            typer.echo(f"设备密码错误！请检查密码是否正确")
+            typer.echo(f"未找到设备密码，请联系管理员添加设备以及密码")
     else:
         typer.echo(f"目前无法找到 {device_name}, 请检查设备名称是否正确")
 
