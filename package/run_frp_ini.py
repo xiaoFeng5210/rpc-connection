@@ -6,11 +6,13 @@ import os
 
 def run_frp_ini():
     # 指定 frp 目录的路径
-    frp_dir = '../frp'
+    frp_dir = './frp'
 
     try:
         # 切换到 frp 目录
         os.chdir(frp_dir)
+
+        print(f"当前工作目录: {os.getcwd()}")
 
         # 执行命令
         command = ['sudo', './frpc', '-c', 'frpc.ini']
@@ -33,7 +35,8 @@ def run_frp_ini():
 
     finally:
         # 切回原来的目录（可选，取决于您的需求）
-        os.chdir('..')
+        print("已经退出")
+
 if __name__ == '__main__':
     thread = threading.Thread(target=run_frp_ini)
     thread.start()

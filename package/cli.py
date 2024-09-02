@@ -1,6 +1,7 @@
 import typer
 from config.password import device_match_password
 from package.file import create_frp_ini
+from package.run_frp_ini import run_frp_ini
 
 current_device = ''
 current_password = ''
@@ -16,6 +17,7 @@ def main_cli(device_name: str):
         current_device = device_name
         current_password = password
         create_frp_ini(device_name)
+        run_frp_ini()
     else:
         typer.echo(f"目前无法找到 {device_name}, ")
 
