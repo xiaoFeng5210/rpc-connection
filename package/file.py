@@ -10,7 +10,6 @@ def create_file_path():
     # 获取上层目录
     parent_dir = os.path.dirname(current_dir)
     frpc_path = os.path.join(parent_dir, 'frp', 'frpc.ini')
-    print(frpc_path)
     return frpc_path
 
 
@@ -22,10 +21,13 @@ def modify_frp_ini(file_path: str, new_server_name: str):
         with open(file_path, 'r') as ini_file:
             config.read_file(ini_file)
             if 'secret_ssh_visitor' in config:
-                print(config['secret_ssh_visitor']['server_name'])
-                config['secret_ssh_visitor']['server_name'] = new_server_name
+                config['secret_ssh_visitor']['server_name'] = 'ssh_' + new_server_name
             else:
                 print("警告: 'secret_ssh_visitor' 部分不存在")
+
+            with open(file_path, 'w') as ini_file:
+                config.write(ini_file)
+                print(f"成功修改 '{file_path}'")
 
     except FileNotFoundError:
         print(f"错误：文件 '{file_path}' 不存在。")
@@ -36,6 +38,9 @@ def modify_frp_ini(file_path: str, new_server_name: str):
     except Exception as e:
         print(f"发生未知错误：{e}")
 
-if __name__ == "__main__":
+def create_frp_ini(device_name: str):
     file_path = create_file_path()
-    modify_frp_ini(file_path, 'nothing') 
+    modify_frp_ini(file_path, device_name)
+
+if __name__ == "__main__":
+    create_frp_ini('nothing') 
