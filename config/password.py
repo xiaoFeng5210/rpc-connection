@@ -2,7 +2,7 @@ device_match_password = {
 
   'NULZJv': {
     'dealer': '文心桥',
-    'desc': '当前测试',
+    'desc': '柜体咖啡（文心桥）',
     'password': 'xymWCm'
   },
 
@@ -23,4 +23,22 @@ device_match_password = {
     'desc': '惠人',
     'password': 'PjrxbJ'
   },
+
+  'jPepxj': {
+    'dealer': '亚朵',
+    'desc': '亚朵',
+    'password': 'ip0sWt'
+  },
+
+  "FQ8E90": {
+    "dealer": "平谦",
+    "desc": "平谦",
+    "password": "rZYY98"
+  },
+
+  "qcOQrA": {
+    "dealer": "余正1",
+    "desc": "余正1",
+    "password": "gz4q4M"
+  }
 }
