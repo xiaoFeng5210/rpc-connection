@@ -36,9 +36,32 @@ device_match_password = {
     "password": "rZYY98"
   },
 
+  "gQo5Y3": {
+    "dealer": "平迁主机",
+    "password": "XICg3F"
+  },
+
   "qcOQrA": {
     "dealer": "余正1",
     "desc": "余正1",
     "password": "gz4q4M"
-  }
+  },
+
+  "x2GWRa": {
+    "dealer": "扬州观前街",
+    "desc": "扬州观前街",
+    "password": "KA6gRl"
+  },
+
+  "wpTuc3": {
+    "dealer": "冰淇淋",
+    "desc": "冰淇淋",
+    "password": "98z08u"
+  },
+
+  "74JQCC": {
+    "dealer": "海中洲",
+    "desc": "海中洲",
+    "password": "cPjBn5"
+  },
 }
