@@ -6,6 +6,12 @@ device_match_password = {
     'password': 'xymWCm'
   },
 
+  "aYsMO4": {
+    "dealer": "深圳",
+    "desc": "深圳",
+    "password": "t2qbqt"
+  },
+
   'gUwnQi': {
     'dealer': '西班牙冰淇淋',
     'desc': '西班牙冰淇淋',
@@ -64,4 +70,46 @@ device_match_password = {
     "desc": "海中洲",
     "password": "cPjBn5"
   },
+  
+  "owgqmd": {
+    "dealer": "办公室咖啡",
+    "desc": "办公室咖啡",
+    "password": "OMOTfs"
+  },
+  
+  "BblyfH": {
+    "dealer": "绍兴店2",
+    "desc": "绍兴店",
+    "password": "tEJSZi"
+  },
+  
+  "1WbuJe": {
+    "dealer": "绍兴",
+    "desc": "绍兴店3",
+    "password": "BC91Dl"
+  },
+  
+  "nitv1d": {
+    "dealer": "绍兴4",
+    "desc": "绍兴店",
+    "password": "szhTQD"
+  },
+  
+  "ntNPUO": {
+    "dealer": "绍兴1",
+    "desc": "绍兴店",
+    "password": "YujteR"
+  },
+
+  "Zgqs4N": {
+    "dealer": "水饺",
+    "desc": "水饺",
+    "password": "vRv33S"
+  },
+
+  "0AHLai": {
+    "dealer": "马来西亚",
+    "desc": "马来西亚单机咖啡",
+    "password": "ZHfRyI"
+  }
 }
