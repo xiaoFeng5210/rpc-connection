@@ -84,7 +84,7 @@ device_match_password = {
   },
   
   "1WbuJe": {
-    "dealer": "绍兴",
+    "dealer": "绍兴3",
     "desc": "绍兴店3",
     "password": "BC91Dl"
   },
@@ -101,15 +101,39 @@ device_match_password = {
     "password": "YujteR"
   },
 
+  "0AHLai": {
+    "dealer": "马来西亚",
+    "desc": "马来西亚单机咖啡",
+    "password": "ZHfRyI"
+  },
+  
   "Zgqs4N": {
     "dealer": "水饺",
     "desc": "水饺",
     "password": "vRv33S"
   },
 
-  "0AHLai": {
-    "dealer": "马来西亚",
-    "desc": "马来西亚单机咖啡",
-    "password": "ZHfRyI"
+  "cqS6qz": {
+    "password": "tR22ZB",
+    "dealer": "柜体咖啡",
+    "desc": "柜体咖啡"
+  },
+
+  "i2Aeg0": {
+    "password": "CcZHeC",
+    "dealer": "柜体咖啡",
+    "desc": "柜体咖啡"
+  },
+  
+  "H3Tcps": {
+    "password": "b8880c",
+    "dealer": "柜体咖啡10/22",
+    "desc": "柜体咖啡10/22"
+  },
+
+  "CbiLVq": {
+    "password": "lebai",
+    "dealer": "伯高煮面",
+    "desc": "伯高煮面"
   }
 }
