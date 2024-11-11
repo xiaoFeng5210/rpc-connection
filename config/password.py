@@ -141,5 +141,11 @@ device_match_password = {
     "password": "J8R2bN",
     "dealer": "普通咖啡11/06",
     "desc": "普通咖啡11/06"
+  },
+
+  "G6aqnm": {
+    "password": "V1OfGQ",
+    "dealer": "冰淇淋",
+    "desc": "冰淇淋"
   }
 }
