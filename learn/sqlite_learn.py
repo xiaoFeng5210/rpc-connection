@@ -8,7 +8,7 @@ def create_table():
   CREATE TABLE IF NOT EXISTS book(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
-    author TEXT NOT NULL,
+    author TEXT NOT NULL, 
     year INTEGER NOT NULL
   )
   """

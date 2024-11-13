@@ -147,5 +147,5 @@ device_match_password = {
     "password": "V1OfGQ",
     "dealer": "冰淇淋",
     "desc": "冰淇淋"
-  }
+  },
 }

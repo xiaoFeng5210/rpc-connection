@@ -12,7 +12,6 @@ def main_cli(device_name: str):
     if device_name in device_match_password:
         # 如果设备名称在字典中，则获取密码和描述信息
         find_obj = device_match_password[device_name]
-        find_obj = device_match_password[device_name]
         password = find_obj.get("password")
         desc = find_obj.get("desc")
         if password is not None:
