@@ -42,9 +42,9 @@ device_match_password = {
     "password": "rZYY98"
   },
 
-  "gQo5Y3": {
+  "WofgQK": {
     "dealer": "平迁主机",
-    "password": "XICg3F"
+    "password": "kGGPcs"
   },
 
   "qcOQrA": {
@@ -121,8 +121,8 @@ device_match_password = {
 
   "i2Aeg0": {
     "password": "CcZHeC",
-    "dealer": "柜体咖啡",
-    "desc": "柜体咖啡"
+    "dealer": "成都柜体咖啡",
+    "desc": "成都柜体咖啡"
   },
   
   "H3Tcps": {
@@ -148,4 +148,31 @@ device_match_password = {
     "dealer": "冰淇淋",
     "desc": "冰淇淋"
   },
+
+  "pnxba7": {
+    "password": "a9306b",
+    "desc": "dipo煮面"
+  },
+  "9nJdnT": {
+    "password": "bcfb46",
+    "desc": "煮面"
+  },
+  "onenbK": {
+    "password": "9af5c1",
+    "desc": "星程煮面"
+  },
+  "WofgQK": {
+    "password": "kGGPcs",
+  },
+  "cqS6qz": {
+    "password": "tR22ZB",
+    "dealer": "柜体咖啡",
+    "desc": "成都柜体咖啡"
+  },
+
+  "3DYSZC": {
+    "password": "zBE5nV",
+    "dealer": "容州冰淇淋",
+    "desc": "容州冰淇淋"
+  }
 }
